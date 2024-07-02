@@ -71,3 +71,4 @@ with app.app_context():
 
     db.session.add_all([a1, a2, a3])
     db.session.commit()
+    
